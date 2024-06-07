@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <div class="container  my-5 text-center">
+        <div class="group m-auto p-5 shadow-lg w-75 d-flex justify-content-center align-items-center flex-column"
+            style="height: 600px;">
+            <h1>Smart Login System</h1>
+            <input id="signupName" class="form-control my-3 " placeholder="Enter your name" type="text"
+                oninput="validateinput(this)">
+            <input id="signupEmail" class="form-control my-3" placeholder="Enter your email" type="email"
+                oninput="validateinput(this)">
+            <input id="signupPassword" class="form-control my-3" placeholder="Enter  password" type="password"
+                oninput="validateinput(this)">
+            <p id="required"></p>
+            <button onclick="adduser()" id="signup" class="btn btn-outline-secondary w-100 my-3">Sign Up</button>
+            <p class="text-white">You have an account? <a class='text-white' href='index.html'>Signin</a></p>
+        </div>
+    </div>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

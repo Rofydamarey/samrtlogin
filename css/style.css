@@ -1,0 +1,25 @@
+body {
+    /* background-color: #7469B6 !important; */
+    background-image: url(../images/9f992e1b43e6fc64a656f42a56d1ba03.jpg) !important;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+h1 {
+    color: #254336 !important;
+}
+
+input,
+textarea {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+}
